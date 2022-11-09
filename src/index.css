@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,h2{
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+nav{
+    background-color: gainsboro;
+    width: 100%;
+    padding: 10px;
+}
+nav .nav__link{
+    text-decoration: none;
+    color: purple;
+}
+.nav__logOut {
+    background: none;
+    color: purple;
+    border: none;
+    font-weight: 100;
+    font-size: inherit;
+}
+.nav__logOut:hover{
+    cursor: pointer;
+}
+div{
+    margin: auto;
+}
+.log_out {
+    padding: 5px;
+    font-size: 1.10rem;
+}
+.nav_Container{
+    inline-size: 80%;
+    font-size: 18px;
+}
+.container{
+    inline-size: 80%;
+    margin: auto;
+}
+.container p{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+ul li {
+    font-size: 1.25rem;
+    color: purple;
 }
